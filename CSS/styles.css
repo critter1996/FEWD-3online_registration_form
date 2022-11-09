@@ -1,4 +1,19 @@
 
 *{
+    box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
+
+
+.title {
+    display: flex;
+    background: rgb(59, 68, 77);
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1024px;
+  }
