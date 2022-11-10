@@ -23,9 +23,9 @@
       <fieldset>
         <legend>Contact Information</legend>
         <label for="name">Full Name</label>
-        <input type="text" id="name" name="full_name"><br>
+        <input type="text" id="name" name="full_name" placeholder="Required"><br>
         <label for="email">Email Address</label>
-        <input type="email" id="email" name="user_email"><br>
+        <input type="email" id="email" name="user_email" placeholder="Required"><br>
         <label for="phone">Phone Number</label>
         <input type="tel" id="phone" name="user_phone"><br>
         <label for="address">Street Address</label>
@@ -91,19 +91,19 @@
       <fieldset>
         <legend>Newsletter</legend>
         <p>Select the newsletters you would like to recieve</p>
-        <input type="checkbox" id="htmlnz" value="html_news" name="html_news">
+        <input type="checkbox" id="htmlnz" value="html_news" name="checkbox">
         <label for="htmlnz">HTML News</label><br>
-        <input type="checkbox" id="cssnz" value="css_news" name="css_news">
+        <input type="checkbox" id="cssnz" value="css_news" name="checkbox">
         <label for="cssnz">CSS News</label><br>
-        <input type="checkbox" id="jsnz" value="javascript_news" name="javascript_news">
+        <input type="checkbox" id="jsnz" value="javascript_news" name="checkbox">
         <label for="jsnz">Javascript News</label>
         <p>Newsletter format</p>
-        <input type="radio" id="htmlt" value="html_reg" name="html_regular">
+        <input type="radio" id="htmlt" value="html_regular" name="radio">
         <label for="htmlt">HTML</label><br>
-        <input type="radio" id="plaintext" value="plain_text" name="plain_text">
-        <label for="plaintext">Plain Text</label> 
-        <p>Other topics you'd like to hear about</p>
-        <textarea></textarea> 
+        <input type="radio" id="plaintext" value="plain_text" name="radio">
+        <label for="plaintext">Plain Text</label><br>
+        <label for="text">Other topics you'd like to hear about</label><br>
+        <textarea id="text" name="text_area"></textarea> 
       </fieldset>
     </form>
     <button type="submit">Sign Up</button>
@@ -115,61 +115,3 @@
 </html>
 
 
-
-<!-- From practice ideas
-   <header>
-  <div id="logo">
-      <div class="container">
-          <img src="images/taco-emoji.png" alt="Tacos By Roscoe taco emoji logo" id="logo-img">
-          <span id="logo-text">Tacos By Roscoe</span>
-      </div> 
-  </div>
-  <nav class="container">
-      <ul class="nav-flex">
-          <li><a href="index.html">Delivery</a></li>
-          <li><a>Billing</a></li>
-          <li><a>Review</a></li>
-      </ul>
-  </nav>
-</header>
-<main>
-  <div class="container">
-      <div id="summary">
-          <i class="fas fa-utensils fa-3x"></i>
-          <div id="summary-text">
-              <p>Delivery by 7pm, April 13, 2020</p>
-              <p>6 items, <span class="check"></span> $31.44</p>
-          </div>
-      </div>
-      
-      form goes here. Legend creates a "caption"-->
-      <!-- <form>
-          <fieldset>
-              <legend>Delivery Information</legend>
-              <p class="hint">* - required field</p>
-              <label for="name">Your Name *</label>
-              <input type="text" id="name" name="user_name">
-              <label for="email">Email Address *</label>
-              <input type="email" id="email" name="user-email">
-              <p class="hint">Reciept Will Be Sent To This Address</p>
-              <label for="address1">Street Address *</label>
-              <input type="text" id="address1" name="user-address1">
-              <label for="address2">Apartment/Office Number</label>
-              <input type="text" id="address2" name="user-address2">
-              <label for="zip">Zip Code *</label>
-              <input type="text" id="zip" name="user-zip">
-              <p class="hint">City and state will be looked up from Zip Code</p>
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone" name="user-phone">
-              <p class="hint">No Phone? Include alternate contact below.</p>
-              <label for="delivery-instructions">Delivery Instructions</label>
-              <textarea id="delivery-instructions" name="user-delivery-instructions"></textarea>
-              <button type="submit">Continue to billing</button>
-          </fieldset>
-
-      </form>
-      
-  </div>
-</main>
-</body>
-</html> -->
