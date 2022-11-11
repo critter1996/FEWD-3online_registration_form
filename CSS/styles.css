@@ -16,10 +16,25 @@ html {
     padding: 25px;
 }
 
-body {
-    margin: 0 auto;
-    max-width: 1024px;
-  }
+.topic {
+  /* border-bottom: 4px double rgb(59, 68, 77); */
+  border-bottom-style: double;
+  border-bottom-color: rgb(59, 68, 77);
+  border-bottom-width: 8px;
+}
+
+legend {
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+
+label {
+  display: block;
+  margin-top: .75rem;
+  font-size: .90rem;
+  font-weight: 400;
+}
 
   ::placeholder {
     color: lightslategray
