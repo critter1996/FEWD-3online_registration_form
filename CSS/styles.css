@@ -4,6 +4,10 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+html {
+  font-size: 18px;
+}
+
 
 .title {
     background: rgb(59, 68, 77);
