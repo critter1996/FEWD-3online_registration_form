@@ -49,7 +49,8 @@ label {
 }
 
 input,
-textarea {
+textarea,
+select {
   display: block;
   border: none;
   width: 100%;
@@ -60,6 +61,7 @@ textarea {
   background: rgb(233, 231, 231);
   font-family:'Quicksand', sans-serif;
 }
+
 
   ::placeholder {
     color: lightslategray
