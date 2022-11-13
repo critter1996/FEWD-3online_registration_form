@@ -48,7 +48,7 @@ label {
   font-weight: 400;
 }
 
-input,
+/* input, */
 textarea,
 select {
   display: block;
@@ -79,6 +79,14 @@ select {
   textarea {
     height: 100%;
   }
+
+  #zipcode {
+    width: 50%;
+  }
+
+ label.check {
+    display: inline;
+}
 
   button {
     width: 100%;
