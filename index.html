@@ -23,15 +23,15 @@
       <fieldset id="firstset">
         <legend class="legend">Contact Information</legend>
         <label for="name">Full Name</label>
-        <input type="text" id="name" name="full_name" placeholder="Required"><br>
+        <input type="text" id="name" name="full_name" placeholder="Required" class="long"><br>
         <label for="email">Email Address</label>
-        <input type="email" id="email" name="user_email" placeholder="Required"><br>
+        <input type="email" id="email" name="user_email" placeholder="Required" class="long"><br>
         <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="user_phone"><br>
+        <input type="tel" id="phone" name="user_phone" class="long"><br>
         <label for="address">Street Address</label>
-        <input type="text" id="address" name="user_address"><br>
+        <input type="text" id="address" name="user_address" class="long"><br>
         <label for="city">City</label>
-        <input type="text" id="city" name="user_city"><br>
+        <input type="text" id="city" name="user_city" class="long"><br>
         <label for="state">State</label>
             <select id="state" name="user_state"><br>
             <optgroup label="State">
@@ -89,7 +89,7 @@
             </optgroup>  
             </select><br>
         <label for="zipcode">Zipcode</label>
-        <input type="text" id="zipcode" name="user_zipcode">
+        <input type="text" id="zipcode" name="user_zipcode" class="long">
       </fieldset>
       <fieldset>
         <legend class="legend">Newsletter</legend> 
@@ -99,9 +99,9 @@
         <input type="checkbox" id="jsnz" value="javascript_news" name="Javascript"><label class="check" for="jsnz">Javascript News</label>
         <p>Newsletter format</p>
         <input type="radio" id="htmlt" value="html_regular" name="radio">
-        <label for="htmlt">HTML</label><br>
+        <label for="htmlt" class="rad">HTML</label><br>
         <input type="radio" id="plaintext" value="plain_text" name="radio">
-        <label for="plaintext">Plain Text</label><br>
+        <label for="plaintext" class="rad">Plain Text</label><br>
         <label for="text">Other topics you'd like to hear about</label><br>
         <textarea id="text" name="text_area"></textarea> 
       </fieldset>

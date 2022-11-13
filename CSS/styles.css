@@ -48,7 +48,7 @@ label {
   font-weight: 400;
 }
 
-/* input, */
+input.long,
 textarea,
 select {
   display: block;
@@ -84,8 +84,13 @@ select {
     width: 50%;
   }
 
- label.check {
+ label.check,
+ label.rad {
     display: inline;
+    border: none;
+    width: 100%;
+    margin: 5px, 0;
+    padding: 8px;
 }
 
   button {
