@@ -26,6 +26,11 @@ div > h3{
   text-align: center;
 }
 
+form {
+  max-width:95%;
+}
+
+
 fieldset {
   border:none;
 }
@@ -77,6 +82,7 @@ select {
 
   textarea {
     height: 100%;
+    max-width: 430px;
   }
 
   #zipcode {
@@ -93,7 +99,7 @@ select {
 }
 
   button {
-    width: 100%;
+    width: 88%;
     max-width: 430px;
     padding: 12px 0;
     font-size: 18px;
@@ -104,9 +110,22 @@ select {
     color: white;
     display: block;
     cursor: pointer;
+    text-align: center;
+    margin-left: 12px;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #copywright {
+    font-size: 14px;
+    text-align: center;
   }
 
   @media screen and (min-width: 768px) {
-      /* ...desktop styles here... */
+    
 
   }
