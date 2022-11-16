@@ -13,6 +13,7 @@ html {
     color: whitesmoke;
     text-align: center;
     padding: 25px;
+    width:100%;
 }
 
 #topic {
@@ -26,10 +27,6 @@ div > h3{
   text-align: center;
 }
 
-form {
-  max-width:95%;
-}
-
 
 fieldset {
   border:none;
@@ -37,10 +34,6 @@ fieldset {
 
 #contact {
   border-bottom: 2px solid rgb(59, 68, 77);
-}
-
-#newsletter {
-  margin-left: 10%;
 }
 
 .legend {
@@ -118,11 +111,6 @@ select {
     margin-left: 12px;
   }
 
-  /* .flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  } */
 
   #copywright {
     font-size: 14px;
@@ -130,25 +118,34 @@ select {
   }
 
   @media screen and (min-width: 768px) {
-    button {
+    button,
+    textarea {
+      width: 100%;
+      max-width: 600px;
+      /* align-self: center; */
+    }
+
+    /* textarea {
       width: 90%;
-      align-self: center;
       max-width: 100%;
+
+    } */
+
+
+    div > #wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
     body {
-      margin-left: 10%;
-      margin-right: 10%;
-    }
-
-/* 
-    .body {
       display: flex;
       flex-direction: column;
-      width: 30%;
+      /* width: 30%; */
       justify-content: center;
-      align-items: center;
-      margin:auto;
-    } */
+      /* align-items: center; */
+      margin-left: 20%;
+      margin-right: 20%;
+    }
 
   }
