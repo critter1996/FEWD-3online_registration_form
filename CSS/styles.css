@@ -35,8 +35,12 @@ fieldset {
   border:none;
 }
 
-#firstset {
+#contact {
   border-bottom: 2px solid rgb(59, 68, 77);
+}
+
+#newsletter {
+  margin-left: 10%;
 }
 
 .legend {
@@ -131,6 +135,12 @@ select {
       align-self: center;
       max-width: 100%;
     }
+
+    body {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
 /* 
     .body {
       display: flex;
