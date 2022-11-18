@@ -8,12 +8,17 @@ html {
   font-size: 18px;
 }
 
-#title {
+header > h1 {
     display: flex;
     justify-content: center;
     background: rgb(59, 68, 77);
     color: whitesmoke;
-    /* padding: 25px; */
+    width: 100%;
+    padding: 20px;
+}
+
+body {
+  align-items: center;
 }
 
 #topic {
@@ -26,7 +31,6 @@ html {
 div > h3{
   text-align: center;
 }
-
 
 fieldset {
   border:none;
@@ -122,28 +126,21 @@ select {
     textarea {
       width: 100%;
       max-width: 600px;
-      /* align-self: center; */
     }
 
-    /* textarea {
-      width: 90%;
-      max-width: 100%;
 
-    } */
-
-
-    div > #wrapper {
+    #wrapper {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      width: 80%;
     }
 
     body {
       display: flex;
       flex-direction: column;
-      /* width: 30%; */
       justify-content: center;
-      /* align-items: center; */
+      align-items: center;
       margin-left: 20%;
       margin-right: 20%;
     }
