@@ -8,28 +8,33 @@ html {
   font-size: 18px;
 }
 
-header > h1 {
-    display: flex;
+#title {
+    display: inline-flex;
     justify-content: center;
     background: rgb(59, 68, 77);
     color: whitesmoke;
-    width: 100%;
-    padding: 20px;
+    width: 180%;
+    margin-top: -20px;
+    font-size: 15px;
 }
 
 body {
   align-items: center;
 }
 
-#topic {
+header {
   border-bottom-style: double;
   border-bottom-color: rgb(59, 68, 77);
   border-bottom-width: 8px;
   text-align: center;
+  font-size: 16px;
+  
 }
 
-div > h3{
-  text-align: center;
+header > p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 
 fieldset {
