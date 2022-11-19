@@ -8,18 +8,20 @@ html {
   font-size: 18px;
 }
 
-#title {
-    display: inline-flex;
-    justify-content: center;
+h1 {
+    width:100%;
+    display: block; 
+    text-align: center;
     background: rgb(59, 68, 77);
     color: whitesmoke;
-    width: 180%;
-    margin-top: -20px;
-    font-size: 15px;
+    font-size: 22px;
+    margin: auto;
+    padding: 20px 20px;
 }
 
 body {
-  align-items: center;
+  margin: 0 auto;
+  max-width: 1024px;
 }
 
 header {
@@ -27,12 +29,9 @@ header {
   border-bottom-color: rgb(59, 68, 77);
   border-bottom-width: 8px;
   text-align: center;
-  font-size: 16px;
-  
 }
 
 header > p {
-  font-size: 14px;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -126,28 +125,32 @@ select {
     text-align: center;
   }
 
-  @media screen and (min-width: 768px) {
+  /* @media screen and (min-width: 768px) {
     button,
     textarea {
       width: 100%;
       max-width: 600px;
-    }
+    } */
 
+    /* #title {
+      max-width: fit-content;
+      display: flex;
+    } */
 
-    #wrapper {
+    /* #wrapper {
       display: flex;
       flex-direction: column;
       justify-content: center;
       width: 80%;
-    }
+    } */
 
-    body {
+    /* body {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 20%;
       margin-right: 20%;
-    }
+    } */
 
-  }
+  /* } */
