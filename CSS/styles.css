@@ -125,32 +125,16 @@ select {
     text-align: center;
   }
 
-  /* @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     button,
     textarea {
       width: 100%;
       max-width: 600px;
-    } */
+    } 
 
-    /* #title {
-      max-width: fit-content;
-      display: flex;
-    } */
+    #wrapper {
+      max-width: 400px;
+      margin: 10px auto;
+    }
 
-    /* #wrapper {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 80%;
-    } */
-
-    /* body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-left: 20%;
-      margin-right: 20%;
-    } */
-
-  /* } */
+ }
