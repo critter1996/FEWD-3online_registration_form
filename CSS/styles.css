@@ -9,7 +9,7 @@ html {
 }
 
 h1 {
-    width:100%;
+    width: 100%;
     display: block; 
     text-align: center;
     background: rgb(59, 68, 77);
@@ -120,7 +120,7 @@ select {
   }
 
 
-  #copywright {
+  #copyright {
     font-size: 14px;
     text-align: center;
   }
@@ -137,4 +137,10 @@ select {
       margin: 10px auto;
     }
 
+
+    /* #title {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    } */
  }
