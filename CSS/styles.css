@@ -21,7 +21,6 @@ div > h1 {
 
 body {
   margin: 0 auto;
-  max-width: 1024px;
 }
 
 header {
@@ -141,7 +140,6 @@ select {
       display: inline-block;
       margin: 0;
       flex-direction: row;
-      max-width: 1100px;
       justify-content: center;
       width: 100%;
     }
