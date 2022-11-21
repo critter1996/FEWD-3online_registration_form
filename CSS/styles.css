@@ -146,8 +146,13 @@ select {
     } 
 
     #wrapper {
-      max-width: 400px;
+      max-width: 600px;
       margin: 10px auto;
     }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
 
  }
