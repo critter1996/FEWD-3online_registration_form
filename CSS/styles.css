@@ -41,9 +41,20 @@ fieldset {
 
 #contact {
   border-bottom: 2px solid rgb(59, 68, 77);
-  /* background: rgb(75, 176, 168); */
   background: rgb(235, 179, 237);
   padding: 12px;
+}
+
+#contact:hover,
+#newsletter:hover {
+  border: 2px black solid;
+  margin-bottom: 12px;
+}
+
+input:hover, 
+textarea:hover,
+select:hover {
+  border: solid black;
 }
 
 .legend {
@@ -73,7 +84,6 @@ select {
   font-family:'Quicksand', sans-serif;
 }
 
-
   ::placeholder {
     color: lightslategray;
     font-size: 14px;
@@ -83,12 +93,13 @@ select {
 
   input:focus,
   textarea:focus {
-    outline: 3px solid rgb(86, 21, 98)
+    outline: 3px solid rgb(86, 21, 98);
+    background: white;
   }
 
   textarea {
     height: 100%;
-    max-width: 430px;
+    max-width: 432px;
   }
 
   #zipcode {
@@ -126,6 +137,7 @@ select {
     text-align: center;
   }
 
+  /* Styles for larger screens */
   @media screen and (min-width: 768px) {
     button,
     textarea {
