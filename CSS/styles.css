@@ -73,7 +73,7 @@ select {
 
   ::placeholder {
     color: lightslategray;
-    text-align: right;
+    /* text-align: right; */
     font-size: 14px;
     font-style: italic;
     padding: 2px;
