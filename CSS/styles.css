@@ -150,22 +150,32 @@ select {
       margin: 10px auto;
     }
 
-/* .container {
-  display: inline-flex;
-  flex-direction: column;
+
+fieldset#contact {
+  display: flex;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
   justify-content: space-between;
-} */
-
-/* .flex {
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
-
-#contact {
-  display: inline-flex;
-  flex-direction: row;
+  align-items: center;
+  row-gap: 25px;
 }
+
+#contact label {
+  flex-basis: 25%;
+  
+}
+
+#contact input,
+#contact select {
+  flex-basis: 60%;
+  flex-grow: 1;
+}
+
+#need {
+  order: -1;
+  align-self: flex-start;
+  flex-grow: 2;
+}
+
 
  }
