@@ -150,9 +150,22 @@ select {
       margin: 10px auto;
     }
 
-.container {
-  display: flex;
+/* .container {
+  display: inline-flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
+
+/* .flex {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+
+#contact {
+  display: inline-flex;
+  flex-direction: row;
 }
 
  }
