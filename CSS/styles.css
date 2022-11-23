@@ -57,7 +57,7 @@ select:hover {
   border: solid black;
 }
 
-.legend {
+legend {
   font-weight: 700;
   font-size: 19px;
   padding-top: 25px;
@@ -153,7 +153,8 @@ select {
 
 fieldset#contact {
   display: flex;
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
@@ -171,11 +172,19 @@ fieldset#contact {
   flex-grow: 1;
 }
 
-#need {
-  order: -1;
-  align-self: flex-start;
-  flex-grow: 2;
+/* div p {
+  text-align: left;
+} */
+
+#zipcode {
+  flex-basis: 50%;
 }
+
+/* .hint {
+  font-weight: 300;
+  font-size: 16px;
+  text-align: end;
+} */
 
 
  }
