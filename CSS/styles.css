@@ -76,7 +76,7 @@ select {
   display: block;
   border: none;
   width: 100%;
-  margin: 5px, 0;
+  margin: 5px 0;
   padding: 8px;
   font-size: 18px;
   color: #333;
@@ -115,7 +115,7 @@ select {
     display: inline;
     border: none;
     width: 100%;
-    margin: 5px, 0;
+    margin: 5px 0;
     padding: 8px;
 }
 
@@ -157,7 +157,6 @@ select {
 
 fieldset#contact {
   display: flex;
-  /* flex-direction: row-reverse; */
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
