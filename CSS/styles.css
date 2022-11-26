@@ -100,6 +100,8 @@ select {
   select:focus {
     outline: 3px solid rgb(86, 21, 98);
     background: white;
+    transition-property: all;
+    transition-duration: 2s;
   }
 
   textarea {
