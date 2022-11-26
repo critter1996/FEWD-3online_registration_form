@@ -96,7 +96,8 @@ select {
   }
 
   input:focus,
-  textarea:focus {
+  textarea:focus,
+  select:focus {
     outline: 3px solid rgb(86, 21, 98);
     background: white;
   }
